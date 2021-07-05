@@ -1,0 +1,177 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+a:visited {
+	color: #224123;
+}
+a:hover {
+	color: #8b2727;
+}
+
+body {
+	margin: 1em;
+	background-color: #224123;
+    font-size: 16px;
+}
+
+
+/* Clases */
+.Home{
+    /* border radius hace que los bordes sean mas redondos */
+    border-radius: 5%;
+    background-color: #ffff;
+    padding: 2em;
+}
+
+.Moral {
+	font-family: "Lucida handwriting";
+	font-size: 6em;
+	background-color: #ebebeb;
+	color: #000000;
+	text-align: center;
+}
+
+.Titulo {
+	font-family: "Lucida handwriting";
+	font-size: 4em;
+	background-color: #ebebeb;
+	color: #ff9e1e;
+	text-align: center;
+}
+
+.Texto {
+	font-family: "Cambria", "Hoefler Text", "Times New Roman", serif;
+	font-size: 2em;
+	color: #000000;
+	text-align: center;
+}
+
+.Imagen {
+    width: 26.875em;
+    height: 14.875em;
+}
+
+.Video {
+    width: 35em;
+    height: 19.6875em;
+}
+
+/* Color al seleccionar texto */
+p::selection, b::selection, strong::selection, h1::selection, h2::selection, u::selection, a::selection {
+	background: #224123;
+	color: Pink;
+}
+
+@media (max-width: 1200px){
+    body {
+        font-size: 14px;
+    }
+
+    .Imagen {
+        width: 26.875em;
+        height: 14.875em;
+    }
+
+    .Video {
+        width: 35em;
+        height: 19.6875em;
+    }
+}
+
+@media (max-width: 992px){
+    body {
+        font-size: 12.3px;
+    }
+
+    .Imagen {
+        width: 26.875em;
+        height: 14.875em;
+    }
+
+    .Video {
+        width: 35em;
+        height: 19.6875em;
+    }
+}
+
+@media (max-width: 720px){
+    body {
+        font-size: 10.6px;
+    }
+
+    .Imagen {
+        width: 26.875em;
+        height: 14.875em;
+    }
+
+    .Video {
+        width: 35em;
+        height: 19.6875em;
+    }
+}
+
+@media (max-width: 660px){
+    body {
+        font-size: 8px;
+    }
+
+    .Imagen {
+        width: 26.875em;
+        height: 14.875em;
+    }
+
+    .Video {
+        width: 35em;
+        height: 19.6875em;
+    }
+}
+
+@media (max-width: 576px){
+    body {
+        font-size: 6.9px;
+    }
+
+    .Imagen {
+        width: 26.875em;
+        height: 14.875em;
+    }
+
+    .Video {
+        width: 35em;
+        height: 19.6875em;
+    }
+}
+
+@media (max-width: 400px){
+    body {
+        font-size: 5.2px;
+    }
+
+    .Imagen {
+        width: 26.875em;
+        height: 14.875em;
+    }
+
+    .Video {
+        width: 35em;
+        height: 19.6875em;
+    }
+}
+
+@media (max-width: 280px){
+    body {
+        font-size: 4.2px;
+    }
+
+    .Imagen {
+        width: 26.875em;
+        height: 14.875em;
+    }
+
+    .Video {
+        width: 35em;
+        height: 19.6875em;
+    }
+}
